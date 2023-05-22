@@ -12,6 +12,9 @@ package com.mycompany.practicagitgomezperez;
 public class PracticaGitGomezPerez {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Gomez g = new Gomez();
+        System.out.println(g.suma(1, 2));
+        Perez p = new Perez();
+        System.out.println(p.resta(5, 2));
     }
 }
