@@ -13,4 +13,22 @@ public class Gomez {
         int resultado = numero1 + numero2;
         return resultado;
     }
+    
+    public int multiplicacion(int numero1, int numero2){
+        int resultado = numero1*numero2;
+        return resultado;
+    }
+    
+    public void resultadoSuma(int num1, int num2){
+        System.out.println(suma(num1, num2));
+    }
+    
+    public void resultadoMultiplicacion(int num1, int num2){
+        System.out.println(multiplicacion(num1, num2));
+    }
+    
+    public int operacionCombinadaMultiplica(int num1, int num2, int num3){
+        int resultado = suma(num1, num2)-multiplicacion(num2,num3);
+        return resultado;
+    }
 }
